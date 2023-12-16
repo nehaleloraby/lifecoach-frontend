@@ -35,7 +35,7 @@ const HomePage = () => {
     const formatDescription = (description) => {
         if (!description) return ""
         return description.split(' ').map(word => 
-            word.toLowerCase() === "hello!" ? 
+            word.toLowerCase() === "hello!!" ? 
                 <strong style={{ fontSize: '1.2em' }}>{word} </strong> : 
                 word + ' '
         )
